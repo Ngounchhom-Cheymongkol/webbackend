@@ -1,13 +1,13 @@
 {
-  "name": "y",
+  "name": "Task-Tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "json:server": "json-server --watch db.json"
+  "description": "task tracker",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts":{
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "sait ibrahim",
   "dependencies": {
     "json-server": "^0.17.0"
   }
